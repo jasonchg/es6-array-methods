@@ -125,7 +125,7 @@ const people = [
 // // sort's way //
 // const sortedAges = people.sort((person) => person.age) // not working
 // // use this instead  //
-// const sortAges = people.sort((a, b) => b - a) //desc
+// const sortAges = people.sort((a, b) => b.age - a.age) //desc
 // console.log(sortedAges)
 
 // reduce //
